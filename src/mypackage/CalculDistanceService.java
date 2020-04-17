@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "CalculDistanceService", targetNamespace = "http://SOAP/", wsdlLocation = "file:/C:/Users/frjblab/Documents/Perso/TrouveTonTrainClient/src/mypackage/CalculDistance.wsdl")
+@WebServiceClient(name = "CalculDistanceService", targetNamespace = "http://SOAP/", wsdlLocation = "https://soap-calculdistance.herokuapp.com/services/CalculDistance?wsdl")
 public class CalculDistanceService
     extends Service
 {
@@ -30,7 +30,7 @@ public class CalculDistanceService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("file:/C:/Users/frjblab/Documents/Perso/TrouveTonTrainClient/src/mypackage/CalculDistance.wsdl");
+            url = new URL("https://soap-calculdistance.herokuapp.com/services/CalculDistance?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
