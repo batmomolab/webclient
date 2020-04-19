@@ -9,6 +9,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>AffichageReponse</servlet-name>
-        <url-pattern>/servlet1</url-pattern>
+        <url-pattern>/Resultat</url-pattern>
     </servlet-mapping>
 </web-app>

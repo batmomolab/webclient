@@ -7,6 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+//Cette classe permet l'interraction entre le client et le service Rest de calcul de prix
 public class CalculPrixClient {
     public static String CalculPrix(double distance, String devise){
         String output = "Une erreur c'est produite";
