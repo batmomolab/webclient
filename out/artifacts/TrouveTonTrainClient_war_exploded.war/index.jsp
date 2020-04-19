@@ -12,10 +12,8 @@
 </head>
 <body>
 <form action="servlet1" method="post">
-  Latitude A:<input type="double" name="LatitudeA"/><br/>
-  Longitude A:<input type="double" name="LongitudeA"/><br/>
-  Latitude B:<input type="double" name="LatitudeB"/><br/>
-  Longitude B:<input type="double" name="LongitudeB"/><br/>
+  Gare Départ:<input type="double" name="depart"/><br/>
+  Gare Arrivée:<input type="double" name="arrivee"/><br/>
   Devise : <select name="devise">
   <option value="Euro">Euro</option>
   <option value="Dollar">Dollar</option>

@@ -23,6 +23,9 @@
       <root url="jar://$PROJECT_DIR$/lib/streambuffer.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/stax2-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jackson-all-1.9.0.jar/jackson-all-1.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/gson-2.2.2.jar/gson-2.2.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/json-20190722.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
